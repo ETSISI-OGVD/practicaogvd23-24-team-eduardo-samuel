@@ -12,5 +12,4 @@ EDA: [https://www.kaggle.com/code/bryamblasrimac/applequality-eda-classification
 
 En esta sección, demostramos cómo el modelo realiza inferencias sobre nuevos datos. La inferencia se lleva a cabo a través de un endpoint creado en AzureML sobre el modelo previamente entrenado.
 
-<video src="assets/inference.mp4" autoplay loop muted></video>
-
+![Model Inference](assets/inference.gif)
