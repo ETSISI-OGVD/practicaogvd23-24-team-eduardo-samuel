@@ -22,11 +22,12 @@ Los datos son almacenados y gestionados a través de Azure Data Lake y accesible
 # 3. Entrenamiento del Modelo
 
 El script train_model.ipynb contiene el código necesario para preparar los datos, entrenar el modelo de clasificación usando un MLP (Multi-Layer Perceptron), hacer log de las métricas y registrar el modelo dentro del entorno de Azure ML. Se emplea MLflow para el seguimiento de experimentos y la gestión del ciclo de vida del modelo.
-# 4. Inference
+# 4. Inferencia
 
 Demostramos cómo el modelo realiza inferencias sobre nuevos datos. La inferencia se lleva a cabo a través de un endpoint creado en Azure ML sobre el modelo previamente entrenado, facilitando la clasificación de nuevas instancias de manzanas en tiempo real.
 
-Model Inference
+![inference](./assets/inference.gif)
+
 # Cómo Usar
 
 Para replicar este proyecto:
